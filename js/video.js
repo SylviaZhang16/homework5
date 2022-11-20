@@ -9,7 +9,7 @@ document.getElementById("slower").addEventListener("click", slower);
 document.getElementById("faster").addEventListener("click", faster);
 document.getElementById("skip").addEventListener("click", skip);
 
-document.getElementById("mute").setAttribute("onclick", "mute()");
+document.getElementById("mute").addEventListener("click", mute);
 
 
 function play(){
